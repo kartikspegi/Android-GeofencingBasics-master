@@ -5,7 +5,7 @@ android {
         test {
             keyAlias 'spegitech'
             keyPassword 'spegitech'
-            storeFile file('C:/Users/jarvis/spegitech.jks')
+            storeFile file('spegitech.jks')
             storePassword 'spegitech'
         }
     }
