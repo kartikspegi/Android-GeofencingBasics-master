@@ -9,8 +9,8 @@ android {
             storePassword 'spegitech'
         }
     }
-    compileSdkVersion 23
-    buildToolsVersion '28.0.0 rc2'
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "com.fencing.mylocation"
         minSdkVersion 19
