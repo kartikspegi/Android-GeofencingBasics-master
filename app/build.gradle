@@ -29,7 +29,9 @@ android {
     productFlavors {
     }
 }
-
+plugins {
+  id "org.sonarqube" version "2.6"
+}
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
